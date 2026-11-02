@@ -18,6 +18,14 @@ Understand and use essential tools
 -   List, set, and change standard ugo/rwx permissions
 -   Locate, read, and use system documentation including man, info, and files in /usr/share/doc
 
+Manage software
+
+-   Configure access to RPM repositories
+-   Install and remove RPM software packages
+-   Configure access to Flatpak repositories
+-   Install and remove Flatpak software packages
+-   Create simple shell scripts
+
 Create simple shell scripts
 
 -   Conditionally execute code (use of: if, test, [], etc.)
@@ -40,7 +48,7 @@ Operate running systems
 
 Configure local storage
 
--   List, create, delete partitions on MBR and GPT disks
+-   List, create, and delete partitions on GPT disks
 -   Create and remove physical volumes
 -   Assign physical volumes to volume groups
 -   Create and delete logical volumes
@@ -53,16 +61,15 @@ Create and configure file systems
 -   Mount and unmount network file systems using NFS
 -   Configure autofs
 -   Extend existing logical volumes
--   Create and configure set-GID directories for collaboration
 -   Diagnose and correct file permission problems
 
 Deploy, configure, and maintain systems
 
--   Schedule tasks using at and cron
+-   Schedule tasks using at, cron and systemd timer units
 -   Start and stop services and configure services to start automatically at boot
 -   Configure systems to boot into a specific target automatically
 -   Configure time service clients
--   Install and update software packages from Red Hat Network, a remote repository, or from the local file system
+-   Install and update software packages from Red Hat Content Delivery Network, a remote repository, or from the local file system
 -   Modify the system bootloader
 
 Manage basic networking
@@ -89,8 +96,8 @@ Manage security
 -   Restore default file contexts
 -   Manage SELinux port labels
 -   Use boolean settings to modify system SELinux settings
--   Diagnose and address routine SELinux policy violations
 
+(Optional, but nice to know)
 Manage containers
 
 -   Find and retrieve container images from a remote registry
